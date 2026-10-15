@@ -1,0 +1,4 @@
+# engines package
+from engines.nutrition_engine import calculate_ingredient_nutrition, calculate_meal_nutrition, INGREDIENT_DATABASE
+from engines.wastage_engine import calculate_food_wastage, validate_meal_record, WasteValidationError
+from engines.fuzzy_engine import fuzzy_engine, PoshanFuzzyEngine
